@@ -93,8 +93,50 @@ h3 {
 
 
 .container img {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: slidein;
+  -moz-animation-duration: 1s;
+  -moz-animation-name: slidein;
+  -o-animation-duration: 1s;
+  -o-animation-name: slidein;
   animation-duration: 1s;
   animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-o-keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 @keyframes slidein {
