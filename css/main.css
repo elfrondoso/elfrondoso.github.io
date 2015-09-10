@@ -58,6 +58,10 @@ table {
 
 /* eof border-box */
 
+body {
+  font-size: 1em;
+}
+
 a {
   text-decoration: none;
 }
@@ -96,5 +100,50 @@ h3 {
 @media (min-width: 480px) {
   .content br {
     display: none;
+  }
+}
+
+.container img {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: slidein;
+  -moz-animation-duration: 1s;
+  -moz-animation-name: slidein;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left:100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
