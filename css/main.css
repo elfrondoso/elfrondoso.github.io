@@ -60,6 +60,7 @@ table {
 
 body {
   font-size: 1em;
+    overflow: hidden;
 }
 
 a {
@@ -68,6 +69,10 @@ a {
 
 h3 {
   font-size: 1.1em;
+}
+
+img {
+  width: 100%;
 }
 
 .hidden {
@@ -89,7 +94,6 @@ h3 {
   -moz-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  overflow: hidden;
   text-align: center;
 }
 
